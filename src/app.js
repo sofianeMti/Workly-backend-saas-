@@ -21,7 +21,7 @@ app.use(
   })
 );
 
-console.log("Initialisation du middleware Better Auth");
+console.log("Initialisation du middleware Better Auth, test");
 
 // Utiliser la syntaxe de route Express standard au lieu de {*any}
 app.all("/api/auth/*", toNodeHandler(auth));
